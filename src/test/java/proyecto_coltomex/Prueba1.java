@@ -8,7 +8,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Prueba1 {
     private WebDriver driver;
+//cambios a realizar
 
+    //cambios 2
     @Before
     public void setUP() {
         WebDriverManager.chromedriver().setup();
