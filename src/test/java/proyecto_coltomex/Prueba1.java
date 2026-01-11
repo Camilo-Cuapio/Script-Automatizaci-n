@@ -1,0 +1,22 @@
+package proyecto_coltomex;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Prueba1 {
+    private WebDriver driver;
+
+    @Before
+    public void setUP() {
+        WebDriverManager.chromedriver().setup();
+
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get("https://www.saucedemo.com/");
+    }
+    @Test
+    
+}
