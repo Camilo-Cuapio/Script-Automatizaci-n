@@ -29,56 +29,12 @@ public class FlujoPrincipal {
 
 
     }
-// ingresar usuario, contraseña
+
+    // ingresar usuario, contraseña
     @Test
-   public void logeoCttrack() throws InterruptedException {
-        /*WebElement usuaCttrack = driver.findElement(By.xpath("//*[@id=\"user-name\"]"));
-        usuaCttrack.clear();
-        usuaCttrack.sendKeys("standard_user");
-        WebElement pasCttrack = driver.findElement(By.cssSelector("#password"));
-        pasCttrack.clear();
-        pasCttrack.sendKeys("secret_sauce");
+    public void logeoCttrack() throws InterruptedException {
 
-      //Tomar evidencia
-        File screenshotFile = (File) ((TakesScreenshot) this.driver).getScreenshotAs(OutputType.FILE);
-
-        try {
-            FileUtils.copyFile(screenshotFile, new File("1Login_" + System.currentTimeMillis() + ".png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        this.driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
-// Dar clic en el botón de enter
-        WebElement btentrar = driver.findElement(By.xpath("//*[@id=\"login-button\"]"));
-        btentrar.click();
-//Tomar evidencia
-        File screenshotFileeee = (File) ((TakesScreenshot) this.driver).getScreenshotAs(OutputType.FILE);
-
-        try {
-            FileUtils.copyFile(screenshotFileeee, new File("2entrar pagina_" + System.currentTimeMillis() + ".png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        this.driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
-// Selecciónar del listado de opciones
-        driver.findElement(By.xpath("//*[@id=\"header_container\"]/div[2]/div/span/select")).click();
-
-        Select ltctt = new Select(driver.findElement(By.xpath("//*[@id=\"header_container\"]/div[2]/div/span/select")));
-        ltctt.selectByVisibleText("Name (Z to A)");
-//Tomar evidencia
-        File screenshotFileee = (File) ((TakesScreenshot) this.driver).getScreenshotAs(OutputType.FILE);
-
-        try {
-            FileUtils.copyFile(screenshotFileee, new File("3Seleccipnaropcion_" + System.currentTimeMillis() + ".png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        this.driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);*/
-
-
+//Ingresar Fecha automatizada
         driver.findElement(By.xpath("//*[@id=\"dob\"]")).click();
 
         Select month_drp = new Select(driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/div[1]/div/select[1]")));

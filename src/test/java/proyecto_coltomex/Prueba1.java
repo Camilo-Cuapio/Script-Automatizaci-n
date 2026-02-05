@@ -14,11 +14,10 @@ public class Prueba1 {
     @Before
     public void setUP() {
         WebDriverManager.chromedriver().setup();
-
+// cambio 3
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.saucedemo.com/");
     }
-    @Test
     
 }
