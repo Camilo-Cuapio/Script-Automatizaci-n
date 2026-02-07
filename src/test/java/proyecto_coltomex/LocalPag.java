@@ -119,5 +119,7 @@ public class LocalPag {
 
         //Prueba Jenkins solo realiza cambios
         // realización
+        //Pruebas de triggers
+
     }
 }
