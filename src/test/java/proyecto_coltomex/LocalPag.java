@@ -118,5 +118,6 @@ public class LocalPag {
         this.driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
 
         //Prueba Jenkins solo realiza cambios
+        // realización
     }
 }
