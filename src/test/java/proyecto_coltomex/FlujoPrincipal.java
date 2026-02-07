@@ -68,6 +68,8 @@ public class FlujoPrincipal {
 
         this.driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
         //prueba jenkins
+        //pruebas triggers
+
     }
 
 }
