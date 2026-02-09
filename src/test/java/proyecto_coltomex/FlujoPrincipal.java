@@ -68,8 +68,7 @@ public class FlujoPrincipal {
 
         this.driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
         //prueba jenkins
-        //pruebas triggers
-//Segunda prueba con trigger webhook desde git y validar allure reports
+
 
     }
 
